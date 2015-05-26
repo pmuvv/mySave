@@ -11,7 +11,7 @@ class Singleton
 
   private:
 	Singleton() {}  // конструктор недоступен
-//	~Singleton() {} // и деструктор
+	~Singleton() {} // и деструктор
 
 	// необходимо также запретить копирование
 	Singleton(Singleton const&); // реализация не нужна
